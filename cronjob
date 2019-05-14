@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd /web/planet.emacsen.org/
+cd /var/www/planet.emacsen.org/
 
 if [ "x$1" = "xloud" ]; then
     /usr/bin/python venus/planet.py en.ini
