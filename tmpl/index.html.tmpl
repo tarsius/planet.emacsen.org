@@ -29,7 +29,9 @@
           </TMPL_IF>
           <div class="entry">
             <TMPL_VAR content>
-          </div>
+              <div class="link"><a href="<TMPL_VAR link ESCAPE="HTML">" rel="bookmark"><TMPL_VAR link ESCAPE="HTML"></a></div>
+              </div>
+            
           <pre class="mode-line">-1:-- <a href="<TMPL_VAR link ESCAPE="HTML">" rel="bookmark"><TMPL_VAR title ESCAPE="HTML"></a> (Post<TMPL_IF author> <TMPL_VAR author></TMPL_IF>)--L0--C0--<TMPL_VAR date></pre>
         </div>
       </TMPL_LOOP>
